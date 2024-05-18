@@ -27,6 +27,14 @@ a {
     background-color: #eceaf8;
 }
 
+.btn {
+	background-color: #5d74f2;
+	color: white;
+}
+
+.btn:hover {
+	border: 2px solid black;
+}
 /* Header Class */
 .header-container {
     height: 110px;
@@ -47,9 +55,22 @@ a {
 	padding: 10px 15px;
 	margin: 0 7px;
 	font-weight: 700;
+	color: #22223b;
 } 
 
-.header-container .btn {
-	background-color: #5d74f2;
-	color: white;
+/* CTA CLASSSES */
+.cta-container h1 {
+	font-size: 64px;
+	font-weight: 700;
+	color: #313435;
+}
+
+.cta-container p {
+	font-size: 21px;
+	color: #6c757d;
+}
+
+.cta-container img {
+	height: 744px;
+	width: 642px;
 }
